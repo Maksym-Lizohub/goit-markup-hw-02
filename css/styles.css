@@ -8,14 +8,20 @@
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
-  font-family: <link rel="preconnect"href="https://fonts.googleapis.com"><link rel="preconnect"href="https://fonts.gstatic.com"crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700;900&display=swap"rel="stylesheet">
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
 }
 .accent {
   color: var(--accent-color);
 }
 .logo {
-  font-family:
+  text-decoration-line: none;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.17;
+  color: var(--primary-text-color);
 }
+
 p {
   color: var(--paragraph-text-color);
 }
@@ -26,9 +32,7 @@ p {
   font-size: 16px;
   color: rgba(33, 33, 33, 1);
 }
-.site-logo-link {
-  font-family: ralyway;
-}
+
 .main-menu-link:hover,
 .main-menu-link:focus {
   color: rgba(33, 150, 243, 1);
@@ -45,10 +49,6 @@ p {
 .hero-button {
   color: black;
   background-color: rgba(33, 150, 243, 1);
-  border-top-width: 0;
-  border-right-width: 0;
-  border-bottom-width: 0;
-  border-left-width: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans', 'Helvetica Neue', sans-serif;
 }
