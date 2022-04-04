@@ -1,9 +1,11 @@
 
 :root {
   --primary-text-color: rgba(33, 33, 33, 1);
-  --paragraph-text-color: rgba(117, 117, 117, 1);
+  --secondary-text-color: rgba(117, 117, 117, 1);
   --accent-color: rgba(33, 150, 243, 1);
   --primary-white-color: rgba(255, 255, 255, 1);
+  --secondary-section-color: rgba(245, 244, 250, 1);
+  --slave-bcg-color: rgba(47, 48, 58, 1);
   }
 body {
   background-color: var(--primary-white-color);
@@ -21,22 +23,23 @@ body {
   line-height: 1.17;
   color: var(--primary-text-color);
 }
-.address-link {
-  text-decoration-line: none;  
-  color: var(--paragraph-text-color);
+.contacts {
+  font-style: normal;
+  text-decoration: none;  
+  color: var(--secondary-text-color);
   font-weight: 500;
 }
-.address-link:hover,
-.address-link:focus {
+.contacts:hover,
+.contacts:focus {
   color: var(--accent-color);
 }
-p {
+.vision-description {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: var(--paragraph-text-color);
+  color: var(--secondary-text-color);
 }
 .list {
   list-style-type: none;
@@ -56,7 +59,7 @@ p {
 }
 
 .hero {
-  background-color: rgba(47, 48, 58, 1);
+  background-color: var(--slave-bcg-color);
 }
 .hero-title {
   font-size: 44px;
@@ -85,19 +88,25 @@ p {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-.hero-button:hover {
-  border-color: rgba(33, 150, 243, 1);
+.hero-button:hover,
+.hero-button:focus {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--primary-white-color);
+    background-color: rgba(33, 150, 243, 1);
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
-button {
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  background: #2196F3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
-.hero-button
-.hero-button:hover
 
 .vision-title {
   font-family: Roboto
@@ -107,10 +116,47 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.title {
+.secondary-section{
+  background-color: var(--secondary-section-color);
+}
+.section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.crew-card {
+  width: 270px;
+  height: 368px;
+  background-color: var(--primary-white-color);
+}
+.crew-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.crew-job { 
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.address-link {
+  text-decoration:none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+}
+.main-footer {
+  background-color: var(--slave-bcg-color);
+}
+.logo-white {
+  color: var(--primary-white-color);
 }
