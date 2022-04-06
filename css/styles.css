@@ -6,6 +6,7 @@
   --primary-white-color: rgba(255, 255, 255, 1);
   --secondary-section-color: rgba(245, 244, 250, 1);
   --slave-bcg-color: rgba(47, 48, 58, 1);
+  --contacts-footer: rgba(255, 255, 255, 0.6);
   }
 body {
   background-color: var(--primary-white-color);
@@ -23,15 +24,36 @@ body {
   line-height: 1.17;
   color: var(--primary-text-color);
 }
-.contacts {
+.contacts-header {
   font-style: normal;
   text-decoration: none;  
   color: var(--secondary-text-color);
   font-weight: 500;
 }
-.contacts:hover,
-.contacts:focus {
+.contacts-header:hover,
+.contacts-header:focus {
   color: var(--accent-color);
+  
+}
+.contacts-footer {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  color: var(--contacts-footer);
+}
+
+.contacts-footer:hover,
+.contacts-footer:focus {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  color: var(--contacts-footer);;
 }
 .vision-description {
   font-style: normal;
