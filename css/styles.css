@@ -36,6 +36,7 @@ body {
   
 }
 .contacts-footer {
+  text-decoration-line: none;
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
@@ -47,6 +48,7 @@ body {
 
 .contacts-footer:hover,
 .contacts-footer:focus {
+  text-decoration-line: none;
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
