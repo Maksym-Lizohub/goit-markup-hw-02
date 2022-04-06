@@ -82,6 +82,9 @@ body {
   color: var(--accent-color);
 }
 
+.current{
+  color: var(--accent-color);
+}
 .hero {
   background-color: var(--slave-bcg-color);
 }
