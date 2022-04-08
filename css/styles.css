@@ -55,7 +55,7 @@ body {
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.03em;
-  color: var(--contacts-footer);;
+  color: var(--accent-color);
 }
 .vision-description {
   font-style: normal;
